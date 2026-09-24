@@ -1,41 +1,32 @@
 # Asset inventory
 
-Inspected 5 September 2026 at source revision `8a3e841dbb1f78b0a15386bc1fbad411e3334241`. The [machine-readable manifest](asset-manifest.json) records byte lengths and SHA-256 identifiers. No artwork bytes were changed.
+Generated 24 September 2026. The [machine-readable manifest](asset-manifest.json) records byte lengths and SHA-256 identifiers; `scripts/verify-assets.py` checks them on every change.
 
-Asset set SHA-256: `d759a14bd7b7a4ca1ef455444dd2a9478194efc5b505920e0f3f38936febca40`, computed using the sorted path/hash format in the manifest.
+Asset set SHA-256: `8304f52447f361a8ef8fdbb1037c846540867133375e7d5620baa301b2601325`
 
-| File | Actual format | Dimensions | Notes |
+| File | Format | Size | Use |
 |---|---|---|---|
-| [assets/png/standard/xitcoin-symbol-200.png](assets/png/standard/xitcoin-symbol-200.png) | PNG | 200 × 200 | Standard RGBA PNG export |
-| [assets/png/standard/xitcoin-symbol-3000.png](assets/png/standard/xitcoin-symbol-3000.png) | PNG | 3000 × 3000 | Standard RGBA PNG export |
-| [assets/png/standard/xitcoin-symbol-32.png](assets/png/standard/xitcoin-symbol-32.png) | PNG | 32 × 32 | Standard RGBA PNG export |
-| [assets/png/standard/xitcoin-symbol-500.png](assets/png/standard/xitcoin-symbol-500.png) | PNG | 500 × 500 | Standard RGBA PNG export |
-| [assets/png/white/xitcoin-symbol-white-200.png](assets/png/white/xitcoin-symbol-white-200.png) | JPEG | 200 × 200 | JPEG bytes under a legacy .png filename; opaque white background |
-| [assets/png/white/xitcoin-symbol-white-3000.png](assets/png/white/xitcoin-symbol-white-3000.png) | JPEG | 3000 × 3000 | JPEG bytes under a legacy .png filename; opaque white background |
-| [assets/png/white/xitcoin-symbol-white-32.png](assets/png/white/xitcoin-symbol-white-32.png) | JPEG | 32 × 32 | JPEG bytes under a legacy .png filename; opaque white background |
-| [assets/png/white/xitcoin-symbol-white-500.png](assets/png/white/xitcoin-symbol-white-500.png) | JPEG | 512 × 512 | JPEG bytes under a legacy .png filename; opaque white background |
-| [assets/svg/xitcoin-symbol-white.svg](assets/svg/xitcoin-symbol-white.svg) | SVG | 3000 × 3000 | Raster wrapper, not path-based vector artwork |
-| [assets/svg/xitcoin-symbol.svg](assets/svg/xitcoin-symbol.svg) | SVG | 3000 × 3000 | Raster wrapper, not path-based vector artwork |
+| [assets/png/round/xitcoin-round-1024.png](assets/png/round/xitcoin-round-1024.png) | PNG | 1024 × 1024 | Round avatar, brand color and shadow |
+| [assets/png/round/xitcoin-round-200.png](assets/png/round/xitcoin-round-200.png) | PNG | 200 × 200 | Round avatar, brand color and shadow |
+| [assets/png/round/xitcoin-round-3000.png](assets/png/round/xitcoin-round-3000.png) | PNG | 3000 × 3000 | Round avatar, brand color and shadow |
+| [assets/png/round/xitcoin-round-32.png](assets/png/round/xitcoin-round-32.png) | PNG | 32 × 32 | Round avatar, brand color and shadow |
+| [assets/png/round/xitcoin-round-500.png](assets/png/round/xitcoin-round-500.png) | PNG | 500 × 500 | Round avatar, brand color and shadow |
+| [assets/png/square/xitcoin-square-1024.png](assets/png/square/xitcoin-square-1024.png) | PNG | 1024 × 1024 | App icon / profile picture, rounded square, brand color and shadow |
+| [assets/png/square/xitcoin-square-200.png](assets/png/square/xitcoin-square-200.png) | PNG | 200 × 200 | App icon / profile picture, rounded square, brand color and shadow |
+| [assets/png/square/xitcoin-square-3000.png](assets/png/square/xitcoin-square-3000.png) | PNG | 3000 × 3000 | App icon / profile picture, rounded square, brand color and shadow |
+| [assets/png/square/xitcoin-square-32.png](assets/png/square/xitcoin-square-32.png) | PNG | 32 × 32 | App icon / profile picture, rounded square, brand color and shadow |
+| [assets/png/square/xitcoin-square-500.png](assets/png/square/xitcoin-square-500.png) | PNG | 500 × 500 | App icon / profile picture, rounded square, brand color and shadow |
+| [assets/png/symbol-color/xitcoin-symbol-color-1024.png](assets/png/symbol-color/xitcoin-symbol-color-1024.png) | PNG | 1024 × 1024 | Symbol in brand color on transparent background, for white or light backgrounds |
+| [assets/png/symbol-color/xitcoin-symbol-color-200.png](assets/png/symbol-color/xitcoin-symbol-color-200.png) | PNG | 200 × 200 | Symbol in brand color on transparent background, for white or light backgrounds |
+| [assets/png/symbol-color/xitcoin-symbol-color-3000.png](assets/png/symbol-color/xitcoin-symbol-color-3000.png) | PNG | 3000 × 3000 | Symbol in brand color on transparent background, for white or light backgrounds |
+| [assets/png/symbol-color/xitcoin-symbol-color-500.png](assets/png/symbol-color/xitcoin-symbol-color-500.png) | PNG | 500 × 500 | Symbol in brand color on transparent background, for white or light backgrounds |
+| [assets/png/symbol-white/xitcoin-symbol-white-1024.png](assets/png/symbol-white/xitcoin-symbol-white-1024.png) | PNG | 1024 × 1024 | White symbol on transparent background, for dark or colored backgrounds |
+| [assets/png/symbol-white/xitcoin-symbol-white-200.png](assets/png/symbol-white/xitcoin-symbol-white-200.png) | PNG | 200 × 200 | White symbol on transparent background, for dark or colored backgrounds |
+| [assets/png/symbol-white/xitcoin-symbol-white-3000.png](assets/png/symbol-white/xitcoin-symbol-white-3000.png) | PNG | 3000 × 3000 | White symbol on transparent background, for dark or colored backgrounds |
+| [assets/png/symbol-white/xitcoin-symbol-white-500.png](assets/png/symbol-white/xitcoin-symbol-white-500.png) | PNG | 500 × 500 | White symbol on transparent background, for dark or colored backgrounds |
+| [assets/svg/xitcoin-round.svg](assets/svg/xitcoin-round.svg) | SVG | 1024 × 1024 | Vector master, round with shadow (path-based vector, 1024 x 1024 viewBox) |
+| [assets/svg/xitcoin-square.svg](assets/svg/xitcoin-square.svg) | SVG | 1024 × 1024 | Vector master, rounded square with shadow (path-based vector, 1024 x 1024 viewBox) |
+| [assets/svg/xitcoin-symbol-color.svg](assets/svg/xitcoin-symbol-color.svg) | SVG | 1024 × 1024 | Symbol in brand color on transparent background, for white or light backgrounds (path-based vector, 1024 x 1024 viewBox) |
+| [assets/svg/xitcoin-symbol-white.svg](assets/svg/xitcoin-symbol-white.svg) | SVG | 1024 × 1024 | White symbol on transparent background, for dark or colored backgrounds (path-based vector, 1024 x 1024 viewBox) |
 
-## Format and provenance findings
-
-Both SVG documents contain one embedded 1000 × 1000 PNG displayed on a
-3000 × 3000 canvas, with no vector paths. XML inspection found no scripts,
-event handlers, foreignObject elements or external image references in those
-two files. Their embedded images were visually inspected. This is a scoped
-inspection, not a guarantee about every renderer or future revision.
-
-The files called `white` show the orange symbol on an opaque white background;
-they are not monochrome reverse marks. The nominal 500-pixel white file is
-actually 512 × 512. Consumers must check magic bytes and dimensions instead
-of trusting legacy names. Keep existing URLs stable until a reviewed migration.
-
-The standard exports contain gradients and raster colors (including a common
-orange pixel of `#FB8C05`) that do not exactly equal the published palette.
-Do not sample those pixels to redefine the official colors or recolor the
-artwork automatically. A genuine vector master, a monochrome variant and any
-color correction require an approved source from the brand owner.
-
-The repository LICENSE dedicates assets under CC0 1.0, but SVG comments contain
-an older “All rights reserved” notice. The owner must reconcile the source
-notices; this inventory does not invent a new license or remove attribution.
+All SVG files are genuine path-based vectors: no embedded raster images, scripts or external references. PNG exports are rendered from the same masters at 4096 px and downsampled.

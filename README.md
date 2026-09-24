@@ -1,64 +1,69 @@
-# Xitcoin visual identity
+# Xitcoin brand assets
 
-This repository is the canonical source for Xitcoin (XTC) artwork. The
-[Xitcoin Guide](https://xitcoin.gitbook.io/guide/) explains its public use.
-No typography, wordmark or additional logo variant is defined here.
+<p>
+<img src="assets/png/square/xitcoin-square-200.png" width="96" alt="Xitcoin app icon">&nbsp;
+<img src="assets/png/round/xitcoin-round-200.png" width="96" alt="Xitcoin round avatar">&nbsp;
+<img src="assets/png/symbol-color/xitcoin-symbol-color-200.png" width="96" alt="Xitcoin symbol">
+</p>
+
+Official logo files for **Xitcoin** (XTC) — *Trade · Connect* — [xitcoin.org](https://xitcoin.org).
+Xitcoin is a brand of [Kcalb Ltd](https://kcalb-ltd.com), part of the KcalbApp ecosystem.
 
 ## Choose an asset
 
-Use the [standard PNG exports](assets/png/standard/) for wallets, explorers
-and token lists. Available square sizes are 32, 200, 500 and 3000 pixels.
-Keep the original aspect ratio and choose enough source pixels for the final
-display density. Preview at the actual display size.
+| You need | Use |
+|---|---|
+| App icon, profile picture, favicon | [`assets/png/square/`](assets/png/square/) — 32, 200, 500, 1024, 3000 px |
+| Round avatar, wallet or token list | [`assets/png/round/`](assets/png/round/) — 32, 200, 500, 1024, 3000 px |
+| Symbol on a dark or colored background | [`assets/png/symbol-white/`](assets/png/symbol-white/) |
+| Symbol on a white or light background | [`assets/png/symbol-color/`](assets/png/symbol-color/) |
+| Print, large formats, any other size | [`assets/svg/`](assets/svg/) — vector masters |
 
-Read the [asset inventory](ASSETS.md) before choosing legacy SVG or `white`
-files: the SVGs wrap raster images, and the `white` files are not monochrome
-marks. The white raster files contain JPEG data despite their `.png` names.
+Every PNG is rendered from the SVG masters. Use the SVG whenever the platform accepts it, otherwise the smallest PNG that is at least as large as the display size on a high-density screen.
 
-[Download specifications and SHA-256 identifiers](asset-manifest.json) bind
-each integration to an exact source file. Production integrations should record
-the full commit and file hash; a `main` URL can change. If a platform requires
-a local copy, record its canonical source and check for reviewed updates.
+Direct links, for integrations: `https://raw.githubusercontent.com/xitcoin-org/brand/main/assets/png/round/xitcoin-round-500.png`. For production, pin a commit hash instead of `main` and check the file against [asset-manifest.json](asset-manifest.json).
 
 ## Official colors
 
-| Color | Hex |
-|---|---|
-| Xitcoin Orange | `#FB8D00` |
-| Xitcoin Graphite | `#53585E` |
-| White | `#FFFFFF` |
+| Color | Hex | Use |
+|---|---|---|
+| Xitcoin | `#F58804` | background of the icon, symbol on light backgrounds |
+| Shadow | `#673902` | drop shadow under the symbol only |
+| White | `#FFFFFF` | symbol on the brand color or on dark backgrounds |
 
-These are the published palette values. Existing raster artwork includes
-gradients and does not reproduce them as uniform fills. Do not change the
-palette or repaint the artwork based on pixel sampling.
+The icon is a flat brand color with a white symbol and a soft drop shadow toward the lower right. The mark itself never uses gradients.
 
-## Placement and integrity
+## Usage rules
 
-- Preserve the square canvas, orientation and complete symbol.
-- Keep adjacent text, controls and other marks outside the artwork canvas;
-  leave visible breathing room and inspect the result at final size.
-- No numeric clear-space ratio or minimum display size has been approved.
-  The 32-pixel export is an available file, not an approved minimum-size rule.
-- Use a quiet background with visible separation from the symbol. Inspect
-  both light and dark themes; the legacy white-background files remain opaque.
-- Do not crop, stretch, rotate, redraw, recolor, outline or add effects.
-- Do not combine the symbol with another chain's mark or imply endorsement.
+- Use the files as provided. Do not redraw, recolor, stretch, rotate, crop or outline the symbol, and do not add effects.
+- Keep the symbol centered in its square or circle, and keep clear space around the icon.
+- On a white background, use the square or round icon, or the colored symbol. On a dark background, use the icon or the white symbol.
+- Do not place the artwork next to another mark in a way that suggests partnership or endorsement.
+- Refer to the brand as **Xitcoin**, with this exact spelling.
 
-## Integration
+## Integrity
 
-Use Xitcoin for the project name and XTC for the public asset symbol. A logo
-is not proof of asset identity: verify the network and complete contract or
-native denomination through the Guide. Use alternative text such as
-“Xitcoin symbol”; supply descriptive link text when the image is a control.
-Do not create a bridge-specific or mainnet-specific symbol.
+`asset-manifest.json` lists every file with its size and SHA-256 hash. The *Asset integrity* check runs `scripts/verify-assets.py` on every change and fails if any file is added, removed or altered without updating the manifest.
 
-## Licensing and contact
+## The Kcalb Ltd brand family
 
-The repository publishes the assets under [CC0 1.0 Universal](LICENSE).
-[Legacy embedded notices](ASSETS.md#format-and-provenance-findings) still need
-owner reconciliation. Usage rules describe official presentation and do not
-add restrictions to the CC0 dedication or grant endorsement.
+| Brand | Assets | Website |
+|---|---|---|
+| Xitcoin | [`xitcoin-org/brand`](https://github.com/xitcoin-org/brand) | [xitcoin.org](https://xitcoin.org) |
+| KcalbApp | [`KcalbApp/kcalbapp-brand`](https://github.com/KcalbApp/kcalbapp-brand) | [kcalb-ltd.com](https://kcalb-ltd.com) |
+| InoAi | [`KcalbApp/inoai-brand`](https://github.com/KcalbApp/inoai-brand) | [inoai.org](https://inoai.org) |
+| Kcanther | [`KcalbApp/kcanther-brand`](https://github.com/KcalbApp/kcanther-brand) | [kcanther.org](https://kcanther.org) |
+| InoSwap | [`KcalbApp/inoswap-brand`](https://github.com/KcalbApp/inoswap-brand) | [inoswap.org](https://inoswap.org) |
+| StakeHolDrop | [`KcalbApp/stakeholdrop-brand`](https://github.com/KcalbApp/stakeholdrop-brand) | [stakeholdrop.com](https://stakeholdrop.com) |
+| Crypto-Only | [`KcalbApp/crypto-only-brand`](https://github.com/KcalbApp/crypto-only-brand) | [crypto-only.org](https://crypto-only.org) |
 
-For source artwork and integration questions, use
-[Brand repository issues](https://github.com/xitcoin-org/brand/issues).
+## Token integration
+
+Use **Xitcoin** for the project name and **XTC** for the asset symbol. A logo is not proof of asset identity: always verify the network and the complete contract address or native denomination through the [Xitcoin Guide](https://xitcoin.gitbook.io/guide/). Use alternative text such as “Xitcoin symbol”. Wallets and token lists should use the round icon.
+
 Report security concerns through the Guide's responsible-disclosure process.
+
+## License and contact
+
+The artwork is published under [CC0 1.0 Universal](LICENSE) so that wallets, explorers and token lists can use it freely. The usage rules above describe official presentation; they do not restrict the CC0 dedication or imply endorsement.
+Questions and requests: **contact@xitcoin.org**, or open an [issue](https://github.com/xitcoin-org/brand/issues).

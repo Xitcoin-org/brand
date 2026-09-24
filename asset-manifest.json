@@ -1,117 +1,228 @@
 {
   "schemaVersion": 1,
-  "assetSourceRevision": "8a3e841dbb1f78b0a15386bc1fbad411e3334241",
-  "license": "CC0-1.0 (repository LICENSE; embedded notices need owner reconciliation)",
+  "assetSourceRevision": "initial",
+  "license": "CC0-1.0 (see LICENSE)",
   "assets": [
     {
-      "path": "assets/png/standard/xitcoin-symbol-200.png",
-      "sha256": "0ce7d305e03a254c750b804c2326f3da9d58c9be06b22f239831a9bbfef5a3c6",
-      "bytes": 32892,
+      "path": "assets/png/round/xitcoin-round-1024.png",
+      "sha256": "5f5f901fe06263789ab8c26be51ddbb140d9ca4bda847b4a1e73c827326d6edd",
+      "bytes": 120925,
+      "containerFormat": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "embeddedRaster": null,
+      "notes": "Round avatar, brand color and shadow"
+    },
+    {
+      "path": "assets/png/round/xitcoin-round-200.png",
+      "sha256": "f9b174f7b68ff3d5c9ce6d228eada6aafcb4f2219f96d9e19ce22dbcdc28ecce",
+      "bytes": 16322,
       "containerFormat": "PNG",
       "width": 200,
       "height": 200,
       "embeddedRaster": null,
-      "notes": "Standard RGBA PNG export"
+      "notes": "Round avatar, brand color and shadow"
     },
     {
-      "path": "assets/png/standard/xitcoin-symbol-3000.png",
-      "sha256": "64d4b73ac21526a37c728b9c2a3c407ba75bddde42e3ed2ab78defe071e64a81",
-      "bytes": 1087703,
+      "path": "assets/png/round/xitcoin-round-3000.png",
+      "sha256": "10374f6c447b69023a5fbc8443da87b3ea2e53f015594c67b3336b7dc1f5714c",
+      "bytes": 587382,
       "containerFormat": "PNG",
       "width": 3000,
       "height": 3000,
       "embeddedRaster": null,
-      "notes": "Standard RGBA PNG export"
+      "notes": "Round avatar, brand color and shadow"
     },
     {
-      "path": "assets/png/standard/xitcoin-symbol-32.png",
-      "sha256": "26d74fa7140f9f3dace96fd162ba7b10d7c113c41851aee4c15bda72b6de7f18",
-      "bytes": 4266,
+      "path": "assets/png/round/xitcoin-round-32.png",
+      "sha256": "9218ce92eb91f92c5af273847169c8cf42dce2607214c904de5d5e161be18e7e",
+      "bytes": 1835,
       "containerFormat": "PNG",
       "width": 32,
       "height": 32,
       "embeddedRaster": null,
-      "notes": "Standard RGBA PNG export"
+      "notes": "Round avatar, brand color and shadow"
     },
     {
-      "path": "assets/png/standard/xitcoin-symbol-500.png",
-      "sha256": "03b7c80f5354ffc7711f252e481db5fd44e5df09be515f4b270ed14956cdffc6",
-      "bytes": 117555,
+      "path": "assets/png/round/xitcoin-round-500.png",
+      "sha256": "06148cf27d6b431e1d43de78fd30a2d17943027ffeddf65d41d357c9f79bd3f9",
+      "bytes": 47989,
       "containerFormat": "PNG",
       "width": 500,
       "height": 500,
       "embeddedRaster": null,
-      "notes": "Standard RGBA PNG export"
+      "notes": "Round avatar, brand color and shadow"
     },
     {
-      "path": "assets/png/white/xitcoin-symbol-white-200.png",
-      "sha256": "7aa3def5ce460dfd73491e717378439a43220d942a00a6af8b7cc527b6fb7479",
-      "bytes": 13523,
-      "containerFormat": "JPEG",
+      "path": "assets/png/square/xitcoin-square-1024.png",
+      "sha256": "f2a791d75a529f4ca482d88ea5115252f048028cda696c937399ba60acf2c1f5",
+      "bytes": 110583,
+      "containerFormat": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "embeddedRaster": null,
+      "notes": "App icon / profile picture, rounded square, brand color and shadow"
+    },
+    {
+      "path": "assets/png/square/xitcoin-square-200.png",
+      "sha256": "81c48f83929158fbfa61c9674d7b475758af8c8b2670a4ccf7627ec3bf33a76f",
+      "bytes": 13895,
+      "containerFormat": "PNG",
       "width": 200,
       "height": 200,
       "embeddedRaster": null,
-      "notes": "JPEG bytes under a legacy .png filename; opaque white background"
+      "notes": "App icon / profile picture, rounded square, brand color and shadow"
     },
     {
-      "path": "assets/png/white/xitcoin-symbol-white-3000.png",
-      "sha256": "2c0d7413ee003b2b8697d70fd800d8782267676e6fa2f80321cf2ae0475a7cf8",
-      "bytes": 358571,
-      "containerFormat": "JPEG",
+      "path": "assets/png/square/xitcoin-square-3000.png",
+      "sha256": "8eb47764e6e6011b38385a9c995200cbee49bd3165acbe8b17339c4a593d1578",
+      "bytes": 548121,
+      "containerFormat": "PNG",
       "width": 3000,
       "height": 3000,
       "embeddedRaster": null,
-      "notes": "JPEG bytes under a legacy .png filename; opaque white background"
+      "notes": "App icon / profile picture, rounded square, brand color and shadow"
     },
     {
-      "path": "assets/png/white/xitcoin-symbol-white-32.png",
-      "sha256": "8ca9b2ee103da6b9b4ac3d531af16f693ca70f045f4e10baa0d13f1e75157e56",
-      "bytes": 2260,
-      "containerFormat": "JPEG",
+      "path": "assets/png/square/xitcoin-square-32.png",
+      "sha256": "0e9671e739afc3ce658bb4ac3a9728084a81029b1946f5d19ebb7fc7a25012c4",
+      "bytes": 1571,
+      "containerFormat": "PNG",
       "width": 32,
       "height": 32,
       "embeddedRaster": null,
-      "notes": "JPEG bytes under a legacy .png filename; opaque white background"
+      "notes": "App icon / profile picture, rounded square, brand color and shadow"
     },
     {
-      "path": "assets/png/white/xitcoin-symbol-white-500.png",
-      "sha256": "695e71ca00a963578bd09e8b8f2530621c23e8295f21bd31dc4bf3ba144f1b49",
-      "bytes": 37253,
-      "containerFormat": "JPEG",
-      "width": 512,
-      "height": 512,
+      "path": "assets/png/square/xitcoin-square-500.png",
+      "sha256": "493ad1c3300daf016280bf0617c8e36ed918cdc47c3b1c53272bcecbafda2cc0",
+      "bytes": 42972,
+      "containerFormat": "PNG",
+      "width": 500,
+      "height": 500,
       "embeddedRaster": null,
-      "notes": "JPEG bytes under a legacy .png filename; opaque white background"
+      "notes": "App icon / profile picture, rounded square, brand color and shadow"
+    },
+    {
+      "path": "assets/png/symbol-color/xitcoin-symbol-color-1024.png",
+      "sha256": "83d2c8395056d5f6ad0bfcd5d205b8c39392cff1c2385d0ddeaa1b81418f7e57",
+      "bytes": 49028,
+      "containerFormat": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "embeddedRaster": null,
+      "notes": "Symbol in brand color on transparent background, for white or light backgrounds"
+    },
+    {
+      "path": "assets/png/symbol-color/xitcoin-symbol-color-200.png",
+      "sha256": "88c759e7209fa9c6ac943ceb7c332c14a27b896375e6cd5c58c8a007a04984c2",
+      "bytes": 6087,
+      "containerFormat": "PNG",
+      "width": 200,
+      "height": 200,
+      "embeddedRaster": null,
+      "notes": "Symbol in brand color on transparent background, for white or light backgrounds"
+    },
+    {
+      "path": "assets/png/symbol-color/xitcoin-symbol-color-3000.png",
+      "sha256": "6c184b2095bd7740d871df86a9f6fe4fccf84ec1d781d221de949a4847100855",
+      "bytes": 205400,
+      "containerFormat": "PNG",
+      "width": 3000,
+      "height": 3000,
+      "embeddedRaster": null,
+      "notes": "Symbol in brand color on transparent background, for white or light backgrounds"
+    },
+    {
+      "path": "assets/png/symbol-color/xitcoin-symbol-color-500.png",
+      "sha256": "ae5461cd462153eb9dab0e7c1a985f1a864de6e78f8001a2594cedfe1d3dbb80",
+      "bytes": 19260,
+      "containerFormat": "PNG",
+      "width": 500,
+      "height": 500,
+      "embeddedRaster": null,
+      "notes": "Symbol in brand color on transparent background, for white or light backgrounds"
+    },
+    {
+      "path": "assets/png/symbol-white/xitcoin-symbol-white-1024.png",
+      "sha256": "80c6ecc7e3ceedf649d38a711f2e2038eddb1bde5766b05f477e896a05fcc639",
+      "bytes": 34418,
+      "containerFormat": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "embeddedRaster": null,
+      "notes": "White symbol on transparent background, for dark or colored backgrounds"
+    },
+    {
+      "path": "assets/png/symbol-white/xitcoin-symbol-white-200.png",
+      "sha256": "2c534a8fc1e769c9a71529600a6ce64bf4b2ce8cf4b1f48a58a982138864be15",
+      "bytes": 5370,
+      "containerFormat": "PNG",
+      "width": 200,
+      "height": 200,
+      "embeddedRaster": null,
+      "notes": "White symbol on transparent background, for dark or colored backgrounds"
+    },
+    {
+      "path": "assets/png/symbol-white/xitcoin-symbol-white-3000.png",
+      "sha256": "5f6b28f94ff0e65b373d0d23dbdf49ccd233530f2dfb0b206d434bf51a12c438",
+      "bytes": 143044,
+      "containerFormat": "PNG",
+      "width": 3000,
+      "height": 3000,
+      "embeddedRaster": null,
+      "notes": "White symbol on transparent background, for dark or colored backgrounds"
+    },
+    {
+      "path": "assets/png/symbol-white/xitcoin-symbol-white-500.png",
+      "sha256": "e3f4a3bc2696ecf75e5f1bd4fc3ce33b971e945dcb8d045a584321696379d7c5",
+      "bytes": 14713,
+      "containerFormat": "PNG",
+      "width": 500,
+      "height": 500,
+      "embeddedRaster": null,
+      "notes": "White symbol on transparent background, for dark or colored backgrounds"
+    },
+    {
+      "path": "assets/svg/xitcoin-round.svg",
+      "sha256": "efdcd218202a853d2e98928ff84d338f120a2b77c1c7ff8e18702feaf7d4f600",
+      "bytes": 1041,
+      "containerFormat": "SVG",
+      "width": 1024,
+      "height": 1024,
+      "embeddedRaster": null,
+      "notes": "Vector master, round with shadow (path-based vector, 1024 x 1024 viewBox)"
+    },
+    {
+      "path": "assets/svg/xitcoin-square.svg",
+      "sha256": "5da1ef25d3ad176a2d2ca5ba94c5b935bb8879c06489e06492fa27cb14ac0001",
+      "bytes": 1049,
+      "containerFormat": "SVG",
+      "width": 1024,
+      "height": 1024,
+      "embeddedRaster": null,
+      "notes": "Vector master, rounded square with shadow (path-based vector, 1024 x 1024 viewBox)"
+    },
+    {
+      "path": "assets/svg/xitcoin-symbol-color.svg",
+      "sha256": "8656cb24e49e1cad53a475eca0f625f75bdd27d676b1d32965321b7153927ae5",
+      "bytes": 455,
+      "containerFormat": "SVG",
+      "width": 1024,
+      "height": 1024,
+      "embeddedRaster": null,
+      "notes": "Symbol in brand color on transparent background, for white or light backgrounds (path-based vector, 1024 x 1024 viewBox)"
     },
     {
       "path": "assets/svg/xitcoin-symbol-white.svg",
-      "sha256": "aeaab048a8d1a2ee6eb4ef830c2667ee1610552281f5e332e439ce8cc49ea30b",
-      "bytes": 109294,
+      "sha256": "c4dc296e1de5a101cf93bc6343bd7488d1c195e8d42e7638b764b560b76de16e",
+      "bytes": 452,
       "containerFormat": "SVG",
-      "width": 3000,
-      "height": 3000,
-      "embeddedRaster": {
-        "format": "PNG",
-        "width": 1000,
-        "height": 1000
-      },
-      "notes": "Raster wrapper, not path-based vector artwork"
-    },
-    {
-      "path": "assets/svg/xitcoin-symbol.svg",
-      "sha256": "7bde90423b081053cdcba74889b51c3fbe2ae93655b366f29bfa535bebfe7664",
-      "bytes": 116438,
-      "containerFormat": "SVG",
-      "width": 3000,
-      "height": 3000,
-      "embeddedRaster": {
-        "format": "PNG",
-        "width": 1000,
-        "height": 1000
-      },
-      "notes": "Raster wrapper, not path-based vector artwork"
+      "width": 1024,
+      "height": 1024,
+      "embeddedRaster": null,
+      "notes": "White symbol on transparent background, for dark or colored backgrounds (path-based vector, 1024 x 1024 viewBox)"
     }
   ],
-  "assetSetSha256": "d759a14bd7b7a4ca1ef455444dd2a9478194efc5b505920e0f3f38936febca40",
-  "assetSetHashFormat": "SHA-256 of UTF-8 lines sorted by path: <sha256><two spaces><path><LF>"
+  "assetSetSha256": "8304f52447f361a8ef8fdbb1037c846540867133375e7d5620baa301b2601325"
 }
