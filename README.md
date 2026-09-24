@@ -21,7 +21,7 @@ Xitcoin is a brand of [Kcalb Ltd](https://kcalb-ltd.com), part of the KcalbApp e
 
 Every PNG is rendered from the SVG masters. Use the SVG whenever the platform accepts it, otherwise the smallest PNG that is at least as large as the display size on a high-density screen.
 
-Direct links, for integrations: `https://raw.githubusercontent.com/xitcoin-org/brand/main/assets/png/round/xitcoin-round-500.png`. For production, pin a commit hash instead of `main` and check the file against [asset-manifest.json](asset-manifest.json).
+Direct links, for integrations: `https://raw.githubusercontent.com/Xitcoin-org/brand/main/assets/png/round/xitcoin-round-500.png`. For production, pin a commit hash instead of `main` and check the file against [asset-manifest.json](asset-manifest.json).
 
 ## Official colors
 
@@ -49,13 +49,16 @@ The icon is a flat brand color with a white symbol and a soft drop shadow toward
 
 | Brand | Assets | Website |
 |---|---|---|
-| Xitcoin | [`xitcoin-org/brand`](https://github.com/xitcoin-org/brand) | [xitcoin.org](https://xitcoin.org) |
-| KcalbApp | [`KcalbApp/kcalbapp-brand`](https://github.com/KcalbApp/kcalbapp-brand) | [kcalb-ltd.com](https://kcalb-ltd.com) |
-| InoAi | [`KcalbApp/inoai-brand`](https://github.com/KcalbApp/inoai-brand) | [inoai.org](https://inoai.org) |
-| Kcanther | [`KcalbApp/kcanther-brand`](https://github.com/KcalbApp/kcanther-brand) | [kcanther.org](https://kcanther.org) |
-| InoSwap | [`KcalbApp/inoswap-brand`](https://github.com/KcalbApp/inoswap-brand) | [inoswap.org](https://inoswap.org) |
-| StakeHolDrop | [`KcalbApp/stakeholdrop-brand`](https://github.com/KcalbApp/stakeholdrop-brand) | [stakeholdrop.com](https://stakeholdrop.com) |
-| Crypto-Only | [`KcalbApp/crypto-only-brand`](https://github.com/KcalbApp/crypto-only-brand) | [crypto-only.org](https://crypto-only.org) |
+| InoPulse | [`Kcalb-Ltd/inopulse-brand`](https://github.com/Kcalb-Ltd/inopulse-brand) | [inopulse.org](https://inopulse.org) |
+| Crypto-Only | [`Kcalb-Ltd/crypto-only-brand`](https://github.com/Kcalb-Ltd/crypto-only-brand) | [crypto-only.org](https://crypto-only.org) |
+| KcalbApp | [`Kcalb-Ltd/kcalbapp-brand`](https://github.com/Kcalb-Ltd/kcalbapp-brand) | [kcalb-ltd.com](https://kcalb-ltd.com) |
+| StakeHolDrop | [`Kcalb-Ltd/stakeholdrop-brand`](https://github.com/Kcalb-Ltd/stakeholdrop-brand) | [stakeholdrop.com](https://stakeholdrop.com) |
+| InoAi | [`Kcalb-Ltd/inoai-brand`](https://github.com/Kcalb-Ltd/inoai-brand) | [inoai.org](https://inoai.org) |
+| InoSwap | [`Kcalb-Ltd/inoswap-brand`](https://github.com/Kcalb-Ltd/inoswap-brand) | [inoswap.org](https://inoswap.org) |
+| InoPlace | [`Kcalb-Ltd/inoplace-brand`](https://github.com/Kcalb-Ltd/inoplace-brand) | [inoplace.org](https://inoplace.org) |
+| Kcanther | [`Kcalb-Ltd/kcanther-brand`](https://github.com/Kcalb-Ltd/kcanther-brand) | [kcanther.org](https://kcanther.org) |
+| Xitcoin | [`Xitcoin-org/brand`](https://github.com/Xitcoin-org/brand) | [xitcoin.org](https://xitcoin.org) |
+| InoShop | [`Kcalb-Ltd/inoshop-brand`](https://github.com/Kcalb-Ltd/inoshop-brand) | [inoshop.org](https://inoshop.org) |
 
 ## Token integration
 
@@ -66,4 +69,4 @@ Report security concerns through the Guide's responsible-disclosure process.
 ## License and contact
 
 The artwork is published under [CC0 1.0 Universal](LICENSE) so that wallets, explorers and token lists can use it freely. The usage rules above describe official presentation; they do not restrict the CC0 dedication or imply endorsement.
-Questions and requests: **contact@xitcoin.org**, or open an [issue](https://github.com/xitcoin-org/brand/issues).
+Questions and requests: **contact@xitcoin.org**, or open an [issue](https://github.com/Xitcoin-org/brand/issues).
