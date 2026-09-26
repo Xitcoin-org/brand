@@ -50,9 +50,9 @@ The icon is a flat brand color with a white symbol and a soft drop shadow toward
 | Brand | Assets | Website |
 |---|---|---|
 | InoPulse | [`Kcalb-Ltd/inopulse-brand`](https://github.com/Kcalb-Ltd/inopulse-brand) | [inopulse.org](https://inopulse.org) |
-| Crypto-Only | [`Kcalb-Ltd/crypto-only-brand`](https://github.com/Kcalb-Ltd/crypto-only-brand) | [crypto-only.org](https://crypto-only.org) |
+| Crypto Only | [`Kcalb-Ltd/crypto-only-brand`](https://github.com/Kcalb-Ltd/crypto-only-brand) | [crypto-only.org](https://crypto-only.org) |
 | KcalbApp | [`Kcalb-Ltd/kcalbapp-brand`](https://github.com/Kcalb-Ltd/kcalbapp-brand) | [kcalb-ltd.com](https://kcalb-ltd.com) |
-| StakeHolDrop | [`Kcalb-Ltd/stakeholdrop-brand`](https://github.com/Kcalb-Ltd/stakeholdrop-brand) | [stakeholdrop.com](https://stakeholdrop.com) |
+| Stake Only | [`Kcalb-Ltd/stakeholdrop-brand`](https://github.com/Kcalb-Ltd/stakeholdrop-brand) | [stakeholdrop.com](https://stakeholdrop.com) |
 | InoAi | [`Kcalb-Ltd/inoai-brand`](https://github.com/Kcalb-Ltd/inoai-brand) | [inoai.org](https://inoai.org) |
 | InoSwap | [`Kcalb-Ltd/inoswap-brand`](https://github.com/Kcalb-Ltd/inoswap-brand) | [inoswap.org](https://inoswap.org) |
 | InoPlace | [`Kcalb-Ltd/inoplace-brand`](https://github.com/Kcalb-Ltd/inoplace-brand) | [inoplace.org](https://inoplace.org) |
